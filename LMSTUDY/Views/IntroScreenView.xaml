@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LMSTUDY.Views.IntroScreenView"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             xmlns:viewModels="clr-namespace:LMSTUDY.ViewModels"
+             x:DataType="viewModels:IntroScreenViewModel"
+             Shell.NavBarIsVisible="False">
+
+
+    <VerticalStackLayout Margin="0,40,0,0">
+
+        <CarouselView IndicatorView="indicator" 
+                      Loop="False"
+                      ItemsSource="{Binding IntroScreens}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="models:IntroScreenModel">
+                <VerticalStackLayout
+                    Spacing="25"
+                    Padding="30,0"
+                    VerticalOptions="Center">
+
+                    <Image
+                            Margin="10,10,20,0"
+                            Source="{Binding IntroImage}"
+                            HeightRequest="306"
+                            WidthRequest="335"
+                            HorizontalOptions="Center" />
+
+                        <Label
+                            Margin="10"
+                            Text="{Binding IntroTitle}"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#39C486"
+                            HorizontalOptions="Center" />
+
+                        <Label
+                            Margin="0,0,0,10"
+                            Text="{Binding IntroDescription}"
+                            HorizontalOptions="CenterAndExpand"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" WidthRequest="370" 
+                                LineHeight="1.1"
+                               TextColor="#9D9EA3"
+                            VerticalOptions="Center" />
+                </VerticalStackLayout>
+            </DataTemplate>
+            </CarouselView.ItemTemplate>
+        
+    </CarouselView>
+
+        <IndicatorView x:Name="indicator"
+                      IndicatorSize="8"
+                      IndicatorColor="LightGray"
+                       SelectedIndicatorColor="#39C486"
+                       HorizontalOptions="Center"
+                       Margin="60"/>
+        <Button
+                Text="Commencer"
+                BackgroundColor="#39C486"
+            HeightRequest="44"
+            WidthRequest="390"
+            Margin="0,30,0,5"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="EndAndExpand" 
+                        Clicked="StartButton_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

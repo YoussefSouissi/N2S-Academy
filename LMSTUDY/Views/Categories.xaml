@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LMSTUDY.Views"
+             x:Class="LMSTUDY.Views.Categories"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             Shell.NavBarIsVisible="False">
+
+
+    <StackLayout>
+        <Label Text="{x:Static models:Google_Icons.Keyboard_backspace}" Style="{x:StaticResource Icons}" Margin="10,20,0,0" FontAttributes="Bold" FontSize="20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BackToHomePage" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Label Text="Catégories" FontAttributes="Bold" FontSize="28" Margin="10,20,0,40"></Label>
+
+        <ListView x:Name="CategoriesList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Tapped="ViewCategorie">
+                        <StackLayout Orientation="Horizontal" Margin="10,5">
+                            <Label Text="{Binding Name}" FontSize="20">
+                            </Label>
+                            <Label Text="{x:Static models:Google_Icons.Arrow_forward}" Style="{x:StaticResource Icons}" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand">
+                            </Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

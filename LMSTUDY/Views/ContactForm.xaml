@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LMSTUDY.Views.ContactForm"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             Shell.NavBarIsVisible="False">
+
+
+    
+    <ScrollView>
+        
+        
+        <StackLayout>
+            <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BackToAvantages" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="Nous Contacter" FontSize="Title" HorizontalOptions="Center" Margin="0,40,10,5" FontAttributes="Bold"/>
+            <Label Text="Notre équipe est à votre écoute !" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,30"/>
+            <VerticalStackLayout RadioButtonGroup.GroupName="country" Margin="10,0,0,20">
+                <RadioButton Content="Un particulier"/>
+                <RadioButton Content="Une entreprise"/>
+                <RadioButton Content="Une administration"/>
+                <RadioButton Content="Autre"/>
+                
+            </VerticalStackLayout>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nom :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center"  />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red" />
+                    <Entry Placeholder="Entrer votre nom" x:Name="NomEntry" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Prénom :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre prénom" x:Name="PrenomEntry"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Société / administration :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Entry Placeholder="Entrer votre Société " x:Name="SocieteEntry"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Adresse :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Adresse" x:Name="AdressEntry"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Code postal :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Code postal" x:Name="CodePostEntry"  Keyboard="Telephone"/>
+                </StackLayout>
+            </Frame>
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Ville :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Ville" x:Name="VilleEntry"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Pays :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Selectionner votre Pays" x:Name="PaysEntry"  />
+                </StackLayout>
+            </Frame>
+
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red" />
+                    <Entry Placeholder="Entrer votre email" x:Name="EmailEntry" Keyboard="Email" />
+                </StackLayout>
+            </Frame>
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Téléphone :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Numero" x:Name="PhoneEntry" Keyboard="Telephone" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Objet :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Objet" x:Name="ObjetEntry" />
+                </StackLayout>
+            </Frame>
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Message :" FontSize="16" FontAttributes="Bold" VerticalOptions="Start" />
+                    <Entry x:Name="MsgEntry" Keyboard="Text" Placeholder="Entrer votre message..."
+                VerticalOptions="FillAndExpand" HeightRequest="150"
+               HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start"
+               TextChanged="MsgEntry_TextChanged"/>
+                </StackLayout>
+            </Frame>
+            <Button Text="Envoyer" Clicked="OnSubmitClicked" Margin="10,0,10,20" BackgroundColor="#39C486" TextColor="White" CornerRadius="5" VerticalOptions="EndAndExpand"/>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

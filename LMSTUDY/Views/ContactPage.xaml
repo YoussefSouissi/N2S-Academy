@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             x:Class="LMSTUDY.Views.ContactPage"
+             Shell.NavBarIsVisible="False">
+    
+        <VerticalStackLayout Margin="60,30,60,0" Spacing="20">
+        <StackLayout Margin="0,0,0,25">
+        <Image Source="logo.png"/>
+        </StackLayout>
+        <Frame BackgroundColor="#39C486">
+                <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Label Text="{x:Static models:Google_Icons.Stay_current_portrait}" Style="{x:StaticResource Icons}" FontSize="20" TextColor="White" />
+                <Label Text="+33 1 77 45 51 76" TextColor="White"/>
+                </StackLayout>
+            </Frame>
+        <Frame BackgroundColor="#39C486">
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Label Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="20" TextColor="White" />
+                <Label Text="+33 7 89 29 29 37" TextColor="White"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="#39C486">
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Label Text="{x:Static models:Google_Icons.Email}" Style="{x:StaticResource Icons}" FontSize="20" TextColor="White" />
+                <Label Text="contact@n2s-academy.com" TextColor="White"/>
+            </StackLayout>
+        </Frame>
+        <Frame BackgroundColor="#39C486">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ToContactForm" />
+            </Frame.GestureRecognizers>
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Label Text="Formulaire" TextColor="White" />
+            </StackLayout>
+            </Frame>
+
+        <Frame VerticalOptions="End" BackgroundColor="#39C486" Margin="0,262,0,0"  HasShadow="False" WidthRequest="430" CornerRadius="15">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Button Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToHomePage"/>
+                <Button Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"   />
+                <Button Text="{x:Static models:Google_Icons.Person}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToUserPage" />
+                <Button Text="{x:Static models:Google_Icons.Shopping_cart}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  TextColor="#CBC9D9" Clicked="ToPanierPage" />
+            </StackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

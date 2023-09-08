@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             x:Class="LMSTUDY.Views.FinanceForm"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+
+
+        <StackLayout>
+            <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BackToFinance" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Image Source="logo.png" HeightRequest="80" HorizontalOptions="Center" Margin="20"/>
+           
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nom :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center"  />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red" />
+                    <Entry Placeholder="Entrer votre nom"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Prénom :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre prénom"   />
+                </StackLayout>
+            </Frame>
+            
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red" />
+                    <Entry Placeholder="Entrer votre email" x:Name="EmailEntry" Keyboard="Email" />
+                </StackLayout>
+            </Frame>
+
+
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Téléphone :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red"/>
+                    <Entry Placeholder="Entrer votre Numero" x:Name="PhoneEntry" Keyboard="Telephone" />
+                </StackLayout>
+            </Frame>
+
+
+
+            <StackLayout Spacing="5" Orientation="Horizontal" Margin="15,10,0,5">
+                <Label Text="Quelle est votre situation professionnelle ? *
+ :" FontSize="16" FontAttributes="Bold" VerticalOptions="Center"  />
+                <Label Text=" * " FontSize="16" FontAttributes="Bold" VerticalOptions="Center" TextColor="red" />
+            </StackLayout>
+            <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">
+                <StackLayout Orientation="Horizontal">
+                    <Picker x:Name="DepartmentPicker" Title="Sélectionner votre situation">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Demandeur d'emploi</x:String>
+                                <x:String>En congé de reclassement</x:String>
+                                <x:String>Contrat de Sécurisation Professionnelle (CSP)</x:String>
+                                <x:String>Salarié au chomage partiel</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Envoyer"  Margin="10,0,10,20" BackgroundColor="#39C486" TextColor="White" CornerRadius="5" VerticalOptions="EndAndExpand"/>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

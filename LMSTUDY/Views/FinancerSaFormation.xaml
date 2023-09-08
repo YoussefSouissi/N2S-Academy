@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             x:Class="LMSTUDY.Views.FinancerSaFormation"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BackToHomePage" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Image Source="finance_sa_formation.svg" WidthRequest="350" VerticalOptions="StartAndExpand" Margin="0,35,0,20"/>
+        <Label Text="Finance Sa Formation " FontAttributes="Bold" FontSize="Title" TextColor="#39C486"
+           HorizontalOptions="Center"/>
+        <Label
+            Text="Investir dans votre avenir via la formation peut être complexe en raison des coûts. Si vous explorez les options de financement pour votre formation professionnelle, notre formulaire vous guide pour découvrir les aides adéquates selon votre situation."
+            HorizontalOptions="CenterAndExpand"
+            Margin="20,30,20,0"
+
+            FontSize="16"
+            HorizontalTextAlignment="Center" WidthRequest="370"
+                    LineHeight="1.1"
+                   TextColor="#9D9EA3"
+        />
+
+        <Button Text="Remplir La Formulaire"     
+                 BackgroundColor="#39C486"
+               HeightRequest="44"
+               WidthRequest="390"
+               Margin="0,140,0,5"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="EndAndExpand" 
+               FontSize="18"
+                Clicked="ToFinanceForm"
+                />
+
+        <Label Text="{x:Static models:Google_Icons.Arrow_forward}" Style="{x:StaticResource Icons}" HorizontalOptions="EndAndExpand" Margin="0,-35,10,0" FontSize="18" TextColor="White" WidthRequest="25"/>
+
+    </VerticalStackLayout>
+</ContentPage>

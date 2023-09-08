@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             x:Class="LMSTUDY.Views.FormationPage"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout>
+        <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BackToHomePage" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Frame HorizontalOptions="Center" Margin="40">
+            <Image Source="angular.svg"/>
+            
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

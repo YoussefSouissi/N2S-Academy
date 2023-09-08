@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LMSTUDY.ViewModels"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             x:Class="LMSTUDY.Views.Informatique"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.BindingContext>
+        <local:InformatiqueViewModel/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+    
+    <StackLayout>
+           <Label Text="{x:Static models:Google_Icons.Keyboard_backspace}" Style="{x:StaticResource Icons}" Margin="10,20,0,0" FontAttributes="Bold" FontSize="20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BackToCategoriesPage" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="Informatique" FontAttributes="Bold" FontSize="28" Margin="10,20,0,40"></Label>
+            <CollectionView ItemsSource="{Binding InformatiqueItems}" ItemsLayout="VerticalList" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="5" Padding="10" Margin="5" BackgroundColor="White" WidthRequest="380" >
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ToFormationPage" />
+                            </Frame.GestureRecognizers>
+                            <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding Image}" HeightRequest="160"  VerticalOptions="StartAndExpand" Margin="-70,0,-30,0"/>
+                            <StackLayout Grid.Column="1" Margin="0,20,10,0" Spacing="5">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Title"/>
+                                <Label Text="{Binding Description}" />
+                                    <Label Text="{Binding Price, StringFormat='Prix: {0:C}'}" FontSize="18" FontAttributes="Bold"/>
+                                    <Button Text="add to cart" BackgroundColor="#39C486"/>
+                                </StackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

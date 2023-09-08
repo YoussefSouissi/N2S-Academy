@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LMSTUDY.Views.SolutionEnpAvantages"
+             xmlns:viewModels ="clr-namespace:LMSTUDY.ViewModels"
+             x:DataType="viewModels:AvantagesViewModel"
+             xmlns:models="clr-namespace:LMSTUDY.Models"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Margin="0,10,0,0">
+        <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="10,20,0,-10" FontSize="25">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BackToSolutionEnp" />
+            </Label.GestureRecognizers>
+        </Label>
+        <CarouselView IndicatorView="indicator" 
+                      Loop="False"
+                      ItemsSource="{Binding Avantages}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="models:AvantagesModel">
+                    <VerticalStackLayout
+                    Spacing="25"
+                    Padding="30,0"
+                    VerticalOptions="Center">
+
+                        <Image
+                            
+                            Source="{Binding AvantageImage}"
+                            HeightRequest="306"
+                            WidthRequest="335"
+                            HorizontalOptions="Center" />
+
+                        <Label
+                            Margin="10"
+                            Text="{Binding AvantageTitle}"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#39C486"
+                            HorizontalOptions="Center" />
+
+                        <Label
+                            Margin="0,0,0,10"
+                            Text="{Binding AvantageDescription}"
+                            HorizontalOptions="CenterAndExpand"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" WidthRequest="370" 
+                                LineHeight="1.1"
+                               TextColor="#9D9EA3"
+                            VerticalOptions="Center" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+
+        </CarouselView>
+
+        <IndicatorView x:Name="indicator"
+                      IndicatorSize="8"
+                      IndicatorColor="LightGray"
+                       SelectedIndicatorColor="#39C486"
+                       HorizontalOptions="Center"
+                       Margin="60"/>
+        <Button
+    Text="Remplir Formulaire"
+    BackgroundColor="#39C486"
+    HeightRequest="44"
+    WidthRequest="390"
+    Margin="0,40,0,5"
+    HorizontalOptions="CenterAndExpand"
+    VerticalOptions="EndAndExpand" 
+            Clicked="ToForm"
+            />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LMSTUDY
+build_property.ProjectDir = E:\.net\LMSTUDY\LMSTUDY\
+
+[E:/.net/LMSTUDY/LMSTUDY/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/Categories.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.Categories.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Categories.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Categories.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/ContactForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.ContactForm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactForm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactForm.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/ContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.ContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/FinanceForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.FinanceForm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FinanceForm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FinanceForm.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/FinancerSaFormation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.FinancerSaFormation.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FinancerSaFormation.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FinancerSaFormation.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/FormationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.FormationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FormationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FormationPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/Informatique.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.Informatique.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Informatique.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Informatique.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/IntroScreenView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.IntroScreenView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IntroScreenView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IntroScreenView.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/PanierPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.PanierPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PanierPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PanierPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/SignupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.SignupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignupPage.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/SolutionEnpAvantages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.SolutionEnpAvantages.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SolutionEnpAvantages.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SolutionEnpAvantages.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/SolutionEntreprise.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.SolutionEntreprise.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SolutionEntreprise.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SolutionEntreprise.xaml
+
+[E:/.net/LMSTUDY/LMSTUDY/Views/UserProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LMSTUDY.Views.UserProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfile.xaml
