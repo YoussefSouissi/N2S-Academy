@@ -9,7 +9,7 @@
     <VerticalStackLayout Spacing="20" Padding="20">
 
        
-        <Image Source="logo.png" HeightRequest="100" HorizontalOptions="Center" Margin="20"/>
+        <Image Source="N2slogo.png" HeightRequest="20" WidthRequest="300" HorizontalOptions="Center" />
         <Label Text="S'inscrire" FontSize="32" HorizontalOptions="Center" FontFamily="bold" />
 
         
@@ -53,37 +53,9 @@
             </StackLayout>
         </Frame>
 
-        
+
         <Button Text="S'inscrire" BackgroundColor="#39C486" TextColor="White" Margin="0,30,0,5" FontFamily="bold" FontSize="18" Clicked="ToHomePage" />
-
-
-
-
-
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="6" Margin="0,15,0,0">
-            <BoxView HeightRequest="1" WidthRequest="60" BackgroundColor="#CBC9D9"  />
-            <Label Text="Ou" TextColor="#CBC9D9"/>
-            <BoxView HeightRequest="1" WidthRequest="60" BackgroundColor="#CBC9D9"  />
-        </HorizontalStackLayout>
-
-        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center" Margin="0,20,0,0">
-            <Frame BackgroundColor="#3C5A99" VerticalOptions="Center" CornerRadius="10" Padding="10" HeightRequest="50" WidthRequest="160">
-                <ContentView>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
-                        <Label Text="{x:Static models:FontAwesomeIcons.Facebook}" FontFamily="AwesomeIcons" TextColor="White" FontSize="20" VerticalOptions="Center" />
-                        <Label Text="Facebook" TextColor="White" VerticalOptions="Center" FontSize="15" />
-                    </StackLayout>
-                </ContentView>
-            </Frame>
-            <Frame BackgroundColor="#DB4437" VerticalOptions="Center" CornerRadius="10" Padding="10" HeightRequest="50" WidthRequest="160">
-                <ContentView>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
-                        <Label Text="{x:Static models:FontAwesomeIcons.Google}" FontFamily="AwesomeIcons" TextColor="White" FontSize="20" VerticalOptions="Center" />
-                        <Label Text="Google" TextColor="White" VerticalOptions="Center" FontSize="15" />
-                    </StackLayout>
-                </ContentView>
-            </Frame>
-        </HorizontalStackLayout>
+        
 
         <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center" Margin="0,10,0,0">
             <Label Text="Vous avez déjà un compte?" />

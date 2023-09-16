@@ -1,1 +1,0 @@
-E:\.net\LMSTUDY\LMSTUDY\LMSTUDY.csproj;x64

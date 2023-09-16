@@ -7,9 +7,9 @@ public partial class FormationPage : ContentPage
 		InitializeComponent();
 	}
 
-    private async void BackToHomePage(object sender, EventArgs e)
+    private async void BackToFormationsPage(object sender, EventArgs e)
     {
 
-        await Navigation.PushAsync(new HomePage());
+        await Navigation.PushAsync(new Informatique());
     }
 }

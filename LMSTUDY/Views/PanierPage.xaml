@@ -5,9 +5,15 @@
              Title="PanierPage"
              xmlns:models="clr-namespace:LMSTUDY.Models"
              Shell.NavBarIsVisible="False">
-    
-    <StackLayout>
-        <Label Text="My Library" FontSize="30" HorizontalOptions="CenterAndExpand" Margin="15"/>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0">
+            <Label Text="My Library" FontSize="30" HorizontalOptions="CenterAndExpand" Margin="15"/>
 
        
         <CollectionView x:Name="courseCollectionView">
@@ -37,15 +43,15 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <VerticalStackLayout  VerticalOptions="End" Margin="0,-50,0,0">
-            <Frame BackgroundColor="#39C486" Margin="-1,85,-1,0" HasShadow="False">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <Button Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToHomePage"/>
-                    <Button Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToContactPage" />
-                    <Button Text="{x:Static models:Google_Icons.Person}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToUserPage" />
-                    <Button Text="{x:Static models:Google_Icons.Shopping_cart}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  />
-                </StackLayout>
-            </Frame>
-        </VerticalStackLayout>
+       
     </StackLayout>
+        <Frame Grid.Row="1" BackgroundColor="#39C486" HasShadow="False" Margin="0,0,0,-20">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Button Grid.Column="0" Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToHomePage"/>
+                <Button Grid.Column="1" Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToContactPage" />
+                <Button Grid.Column="2" Text="{x:Static models:Google_Icons.Person}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToUserPage" />
+                <Button Grid.Column="3" Text="{x:Static models:Google_Icons.Shopping_cart}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  />
+            </StackLayout>
+        </Frame>
+    </Grid>
 </ContentPage>

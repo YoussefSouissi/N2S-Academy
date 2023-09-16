@@ -7,7 +7,7 @@
     <VerticalStackLayout>
         <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
             <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="BackToHomePage" />
+                <TapGestureRecognizer Tapped="BackToFormationsPage" />
             </Label.GestureRecognizers>
         </Label>
         <Frame HorizontalOptions="Center" Margin="40">

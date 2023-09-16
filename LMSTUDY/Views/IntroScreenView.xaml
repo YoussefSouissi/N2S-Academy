@@ -15,12 +15,12 @@
                       ItemsSource="{Binding IntroScreens}">
             <CarouselView.ItemTemplate>
                 <DataTemplate x:DataType="models:IntroScreenModel">
-                <VerticalStackLayout
+                    <VerticalStackLayout
                     Spacing="25"
                     Padding="30,0"
                     VerticalOptions="Center">
 
-                    <Image
+                        <Image
                             Margin="10,10,20,0"
                             Source="{Binding IntroImage}"
                             HeightRequest="306"
@@ -44,11 +44,11 @@
                                 LineHeight="1.1"
                                TextColor="#9D9EA3"
                             VerticalOptions="Center" />
-                </VerticalStackLayout>
-            </DataTemplate>
+                    </VerticalStackLayout>
+                </DataTemplate>
             </CarouselView.ItemTemplate>
-        
-    </CarouselView>
+
+        </CarouselView>
 
         <IndicatorView x:Name="indicator"
                       IndicatorSize="8"

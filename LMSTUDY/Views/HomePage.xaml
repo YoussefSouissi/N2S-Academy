@@ -5,61 +5,69 @@
              xmlns:models="clr-namespace:LMSTUDY.Models"
              Shell.NavBarIsVisible="False">
 
-    <VerticalStackLayout >
-        <VerticalStackLayout>
-        <Image Source="logo.png" HorizontalOptions="Start" Margin="20" HeightRequest="70"/>
-            <Frame Margin="20,0,20,20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
-            <StackLayout>
-                    <Label Text="Nos " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Label Text="  Formations " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Button Text="Categories" WidthRequest="156" FontAttributes="Bold"
-                        HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486" Clicked="ViewCategories"/>
-                
-            </StackLayout>
+    <Grid Padding="0,0,0,-20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Main Content -->
+        <ScrollView>
+            <VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Image Source="logo.png" HorizontalOptions="Start" Margin="20" HeightRequest="70"/>
+                    <Frame Margin="20,0,20,20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
+                        <StackLayout>
+                            <Label Text="Nos " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="  Formations " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Button Text="Categories" WidthRequest="156" FontAttributes="Bold"
+                                HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486" Clicked="ViewCategories"/>
+                        </StackLayout>
+                    </Frame>
+                    <Image Source="learning.svg" HeightRequest="170" HorizontalOptions="EndAndExpand" Margin="80,-170,5,50"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="0,-50,0,0">
+                    <Frame Margin="20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
+                        <StackLayout>
+                            <Label Text="Solutions  " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="  Entreprises " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Button Text="Explorer" WidthRequest="156" FontAttributes="Bold" Clicked="SolutionEntreprise"
+                            HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486"  />
+                        </StackLayout>
+                    </Frame>
+                    <Image Source="solution_entreprise.svg" HeightRequest="150" HorizontalOptions="EndAndExpand" Margin="80,-165,5,50"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="0,-37,0,0">
+                    <Frame Margin="20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
+                        <StackLayout>
+                            <Label Text="Financer " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="   Sa Formation " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
+                            <Button Text="Explorer" WidthRequest="156" FontAttributes="Bold"
+                            HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486" Clicked="ToFinancerFormation"/>
+                        </StackLayout>
+                    </Frame>
+                    <Image Source="finance_sa_formation.svg" HeightRequest="140" HorizontalOptions="EndAndExpand" Margin="40,-165,20,40"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation Bar -->
+        <Frame Grid.Row="1" BackgroundColor="#39C486" HasShadow="False">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  />
+                <Button Grid.Column="1" Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToContactPage" />
+                <Button Grid.Column="2" Text="{x:Static models:Google_Icons.Person}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToUserPage" />
+                <Button Grid.Column="3" Text="{x:Static models:Google_Icons.Shopping_cart}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  Clicked="ToPanierPage" TextColor="#CBC9D9" />
+            </Grid>
         </Frame>
-        <Image Source="learning.svg" HeightRequest="170" HorizontalOptions="EndAndExpand" Margin="80,-170,5,50"/>
-    </VerticalStackLayout>
-
-        <VerticalStackLayout Margin="0,-50,0,0">
-
-            <Frame Margin="20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
-                <StackLayout>
-                    <Label Text="Solutions  " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Label Text="  Entreprises " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Button Text="Explorer" WidthRequest="156" FontAttributes="Bold" Clicked="SolutionEntreprise"
-                    HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486"  />
-                    
-                    
-                </StackLayout>
-            </Frame>
-            <Image Source="solution_entreprise.svg" HeightRequest="150" HorizontalOptions="EndAndExpand" Margin="80,-165,5,50"/>
-        </VerticalStackLayout>
-
-        <VerticalStackLayout Margin="0,-37,0,0">
-
-            <Frame Margin="20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
-                <StackLayout>
-                    <Label Text="Financer " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Label Text="   Sa Formation " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>
-                    <Button Text="Explorer" WidthRequest="156" FontAttributes="Bold"
-                    HorizontalOptions="StartAndExpand" Margin="5,11,0,0" CornerRadius="6" BackgroundColor="#39C486" Clicked="ToFinancerFormation"/>
-                </StackLayout>
-            </Frame>
-            <Image Source="finance_sa_formation.svg" HeightRequest="140" HorizontalOptions="EndAndExpand" Margin="40,-165,20,40"/>
-        </VerticalStackLayout>
-        
-        
-        <Frame BackgroundColor="#39C486" Margin="-1,85,-1,0" HasShadow="False">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Button Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  />
-                <Button Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToContactPage" />
-                <Button Text="{x:Static models:Google_Icons.Person}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToUserPage" />
-                <Button Text="{x:Static models:Google_Icons.Shopping_cart}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"  Clicked="ToPanierPage" TextColor="#CBC9D9" />
-            </StackLayout>
-        </Frame>
-
-
-    </VerticalStackLayout>
-   
-
+    </Grid>
 </ContentPage>
