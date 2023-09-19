@@ -54,7 +54,7 @@
            
 
 
-            <Frame BackgroundColor="#39C486" Margin="-25,110,-25,0" HasShadow="False">
+            <Frame BackgroundColor="#39C486" Margin="-25,105,-25,0" HasShadow="False" CornerRadius="15">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Button Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToHomePage" />
                     <Button Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToContactPage" />

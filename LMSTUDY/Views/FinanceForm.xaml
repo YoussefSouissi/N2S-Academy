@@ -13,7 +13,7 @@
                     <TapGestureRecognizer Tapped="BackToFinance" />
                 </Label.GestureRecognizers>
             </Label>
-            <Image Source="logo.png" HeightRequest="80" HorizontalOptions="Center" Margin="20"/>
+            <Image Source="n2sacademy.png" HeightRequest="150" HorizontalOptions="Center" />
            
 
             <Frame Margin="10" Padding="10" BackgroundColor="#F3F3F3" CornerRadius="5">

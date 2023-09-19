@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Images\home_7461016.png" />
 	  <None Remove="Resources\Images\Learning.svg" />
 	  <None Remove="Resources\Images\METIER.svg" />
+	  <None Remove="Resources\Images\n2sacademy.png" />
 	  <None Remove="Resources\Images\organisation.svg" />
 	  <None Remove="Resources\Images\rapidite.svg" />
 	  <None Remove="Resources\Images\solution_entreprise.svg" />

@@ -1032,3 +1032,4 @@ E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-android\android\assets\System.Runtime.d
 E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-android\resizetizer\r\drawable\n2sacademy.png

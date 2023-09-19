@@ -5,9 +5,9 @@
              x:Class="LMSTUDY.Views.ContactPage"
              Shell.NavBarIsVisible="False">
     
-        <VerticalStackLayout Margin="60,30,60,0" Spacing="20">
+        <VerticalStackLayout Margin="60,10,60,0" Spacing="20">
         <StackLayout Margin="0,0,0,25">
-        <Image Source="logo.png"/>
+            <Image Source="n2sacademy.png"/>
         </StackLayout>
         <Frame BackgroundColor="#39C486">
                 <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
@@ -37,7 +37,7 @@
             </StackLayout>
             </Frame>
 
-        <Frame VerticalOptions="End" BackgroundColor="#39C486" Margin="0,262,0,0"  HasShadow="False" WidthRequest="430" CornerRadius="15">
+        <Frame VerticalOptions="End" BackgroundColor="#39C486" Margin="0,155,0,0"  HasShadow="False" WidthRequest="430" CornerRadius="22">
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Button Text="{x:Static models:Google_Icons.Home}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10" TextColor="#CBC9D9" Clicked="ToHomePage"/>
                 <Button Text="{x:Static models:Google_Icons.Call}" Style="{x:StaticResource Icons}" FontSize="30" BackgroundColor="Transparent" Margin="10,-10,10,10"   />

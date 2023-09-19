@@ -928,6 +928,9 @@
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cout_reduit.scale-400.png">
       <PackagePath>cout_reduit.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete_icon.scale-100.png">
+      <PackagePath>delete_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\evaluation.scale-100.png">
       <PackagePath>evaluation.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -991,6 +994,9 @@
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\learning.scale-400.png">
       <PackagePath>learning.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\metier.scale-100.png">
       <PackagePath>metier.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1005,6 +1011,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\metier.scale-400.png">
       <PackagePath>metier.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\n2slogo.scale-100.png">
+      <PackagePath>n2slogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\organisation.scale-100.png">
       <PackagePath>organisation.scale-100.png</PackagePath>

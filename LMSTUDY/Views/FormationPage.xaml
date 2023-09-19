@@ -4,15 +4,95 @@
              xmlns:models="clr-namespace:LMSTUDY.Models"
              x:Class="LMSTUDY.Views.FormationPage"
              Shell.NavBarIsVisible="False">
-    <VerticalStackLayout>
-        <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="BackToFormationsPage" />
-            </Label.GestureRecognizers>
-        </Label>
-        <Frame HorizontalOptions="Center" Margin="40">
-            <Image Source="angular.svg"/>
-            
-        </Frame>
-    </VerticalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Content of your page -->
+        <ScrollView>
+            <StackLayout Spacing="20">
+                <Label Text="{x:Static models:Google_Icons.Keyboard_arrow_left}" Style="{x:StaticResource Icons}" HorizontalOptions="StartAndExpand" Margin="5,20,0,-30" FontSize="25">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BackToFormationsPage" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Frame HorizontalOptions="Center" Margin="40">
+                    <Image Source="angular.svg"/>
+                </Frame>
+
+                <StackLayout Margin="20,0,0,0">
+                    <Label Text="Angular formation" FontSize="Title" HorizontalOptions="StartAndExpand" FontFamily="bold"></Label>
+                </StackLayout>
+
+                <StackLayout Spacing="10">
+                    <Frame WidthRequest="380" HorizontalOptions="CenterAndExpand" CornerRadius="0" BackgroundColor="#39C486">
+                        <StackLayout>
+                            <Label Text="Objectifs de la formation" FontSize="Title" HorizontalOptions="StartAndExpand" FontFamily="bold" Margin="0,0,0,10" TextColor="#FFFFFF" />
+
+                            <Grid HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{x:Static models:Google_Icons.Check}" Style="{x:StaticResource Icons}" TextColor="#FFFFFF" />
+                                <Label Text="DSGSDGSDG" TextColor="#FFFFFF" Grid.Column="1" />
+                            </Grid>
+
+                            <Grid HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{x:Static models:Google_Icons.Check}" Style="{x:StaticResource Icons}" TextColor="#FFFFFF" />
+                                <Label Text="DSGSDGSDG" TextColor="#FFFFFF" Grid.Column="1" />
+                            </Grid>
+
+                            <Grid HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{x:Static models:Google_Icons.Check}" Style="{x:StaticResource Icons}" TextColor="#FFFFFF" />
+                                <Label Text="DSGSDGSDG" TextColor="#FFFFFF" Grid.Column="1" />
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Margin="0,10,0,0" Spacing="10">
+                    <Label Text="Connaissances nécessaires" FontSize="Title" HorizontalOptions="StartAndExpand" FontFamily="bold" Margin="20,0,0,0" />
+                    <StackLayout Orientation="Horizontal" Spacing="5" Margin="20,0,0,0">
+                        <Label Text="{x:Static models:Google_Icons.Fiber_manual_record}" Style="{x:StaticResource Icons}" TextColor="#39C486"/>
+                        <Label Text="html css js" FontSize="16" TextColor="Black"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Description" FontSize="Title" FontFamily="bold" Margin="20,0,0,0"/>
+                    <Label Text="e Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus Page" Margin="20,5,20,5"
+                           LineBreakMode="WordWrap"
+                           FontSize="16"
+                           TextColor="Black"
+                           VerticalOptions="StartAndExpand"/>
+                </StackLayout>
+
+
+                <BoxView Grid.Row="1" HeightRequest="1" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" Margin="0,10,0,0" />
+
+                <Grid Grid.Row="1" VerticalOptions="End" HorizontalOptions="FillAndExpand" Margin="20,0,20,10">
+                    <!-- Price Label in the top-left corner -->
+                    <Label Text="400£" FontSize="25" VerticalOptions="Start" HorizontalOptions="Start" Margin="20,10" />
+
+                    <!-- Button in the bottom-right corner -->
+                    <Button Text="Ajouter au panier" VerticalOptions="End" HorizontalOptions="End" Margin="10,10" WidthRequest="200" Background="#39C486"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

@@ -21,5 +21,7 @@ namespace LMSTUDY.Models
         public const string Keyboard_backspace = "\ue317";
         public const string Keyboard_arrow_left = "\ue314";
         public const string Shopping_cart = "\ue8cc";
+        public const string Fiber_manual_record = "\ue061";
+        public const string Check = "\ue5ca";
     }
 }

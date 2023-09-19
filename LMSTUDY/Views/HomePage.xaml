@@ -15,7 +15,7 @@
         <ScrollView>
             <VerticalStackLayout>
                 <VerticalStackLayout>
-                    <Image Source="logo.png" HorizontalOptions="Start" Margin="20" HeightRequest="70"/>
+                    <Image Source="n2sacademy.png" HorizontalOptions="Start" Margin="10,0,0,0"  HeightRequest="130"  />
                     <Frame Margin="20,0,20,20" HeightRequest="150" CornerRadius="30" BackgroundColor="#FEF3F3">
                         <StackLayout>
                             <Label Text="Nos " TextColor="#305F72" FontSize="20" FontAttributes="Bold"/>

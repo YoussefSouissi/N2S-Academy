@@ -8,8 +8,8 @@
 
     <VerticalStackLayout Spacing="20" Padding="20">
 
-       
-        <Image Source="N2slogo.png" HeightRequest="20" WidthRequest="300" HorizontalOptions="Center" />
+
+        <Image Source="n2sacademy.png" HeightRequest="250" WidthRequest="300" HorizontalOptions="Center" />
         <Label Text="S'inscrire" FontSize="32" HorizontalOptions="Center" FontFamily="bold" />
 
         
