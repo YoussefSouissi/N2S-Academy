@@ -37,17 +37,11 @@
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LMSTUDY.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LMSTUDY.deps.json">
-      <PackagePath>LMSTUDY.deps.json</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.Core.dll">
       <PackagePath>Microsoft.VisualBasic.Core.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.dll">
-      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
@@ -144,9 +138,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.Primitives.dll">
       <PackagePath>System.Drawing.Primitives.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.dll">
-      <PackagePath>System.Drawing.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
@@ -535,14 +526,173 @@
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.dll">
       <PackagePath>System.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\WindowsBase.dll">
-      <PackagePath>WindowsBase.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\mscorlib.dll">
       <PackagePath>mscorlib.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Accessibility.dll">
+      <PackagePath>Accessibility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\DirectWriteForwarder.dll">
+      <PackagePath>DirectWriteForwarder.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.Forms.dll">
+      <PackagePath>Microsoft.VisualBasic.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.Win32.Registry.AccessControl.dll">
+      <PackagePath>Microsoft.Win32.Registry.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationCore.dll">
+      <PackagePath>PresentationCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework-SystemCore.dll">
+      <PackagePath>PresentationFramework-SystemCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework-SystemData.dll">
+      <PackagePath>PresentationFramework-SystemData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework-SystemDrawing.dll">
+      <PackagePath>PresentationFramework-SystemDrawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework-SystemXml.dll">
+      <PackagePath>PresentationFramework-SystemXml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework-SystemXmlLinq.dll">
+      <PackagePath>PresentationFramework-SystemXmlLinq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.Aero.dll">
+      <PackagePath>PresentationFramework.Aero.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.Aero2.dll">
+      <PackagePath>PresentationFramework.Aero2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.AeroLite.dll">
+      <PackagePath>PresentationFramework.AeroLite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.Classic.dll">
+      <PackagePath>PresentationFramework.Classic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.Luna.dll">
+      <PackagePath>PresentationFramework.Luna.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.Royale.dll">
+      <PackagePath>PresentationFramework.Royale.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationFramework.dll">
+      <PackagePath>PresentationFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\PresentationUI.dll">
+      <PackagePath>PresentationUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ReachFramework.dll">
+      <PackagePath>ReachFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Design.dll">
+      <PackagePath>System.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>System.Diagnostics.EventLog.Messages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.DirectoryServices.dll">
+      <PackagePath>System.DirectoryServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.Design.dll">
+      <PackagePath>System.Drawing.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.dll">
+      <PackagePath>System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Packaging.dll">
+      <PackagePath>System.IO.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Printing.dll">
+      <PackagePath>System.Printing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Resources.Extensions.dll">
+      <PackagePath>System.Resources.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>System.Security.Cryptography.Pkcs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Xml.dll">
+      <PackagePath>System.Security.Cryptography.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.AccessControl.dll">
+      <PackagePath>System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Controls.Ribbon.dll">
+      <PackagePath>System.Windows.Controls.Ribbon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Forms.Design.Editors.dll">
+      <PackagePath>System.Windows.Forms.Design.Editors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Forms.Design.dll">
+      <PackagePath>System.Windows.Forms.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Forms.Primitives.dll">
+      <PackagePath>System.Windows.Forms.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Forms.dll">
+      <PackagePath>System.Windows.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Input.Manipulations.dll">
+      <PackagePath>System.Windows.Input.Manipulations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.Presentation.dll">
+      <PackagePath>System.Windows.Presentation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xaml.dll">
+      <PackagePath>System.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\UIAutomationClient.dll">
+      <PackagePath>UIAutomationClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\UIAutomationClientSideProviders.dll">
+      <PackagePath>UIAutomationClientSideProviders.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\UIAutomationProvider.dll">
+      <PackagePath>UIAutomationProvider.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\UIAutomationTypes.dll">
+      <PackagePath>UIAutomationTypes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\WindowsBase.dll">
+      <PackagePath>WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\WindowsFormsIntegration.dll">
+      <PackagePath>WindowsFormsIntegration.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
@@ -601,11 +751,722 @@
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\msquic.dll">
       <PackagePath>msquic.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\D3DCompiler_47_cor3.dll">
+      <PackagePath>D3DCompiler_47_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\PenImc_cor3.dll">
+      <PackagePath>PenImc_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\PresentationNative_cor3.dll">
+      <PackagePath>PresentationNative_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\vcruntime140_cor3.dll">
+      <PackagePath>vcruntime140_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\wpfgfx_cor3.dll">
+      <PackagePath>wpfgfx_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>cs\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\PresentationCore.resources.dll">
+      <PackagePath>cs\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\PresentationFramework.resources.dll">
+      <PackagePath>cs\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\PresentationUI.resources.dll">
+      <PackagePath>cs\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\ReachFramework.resources.dll">
+      <PackagePath>cs\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>cs\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Windows.Forms.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>cs\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\System.Xaml.resources.dll">
+      <PackagePath>cs\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\UIAutomationClient.resources.dll">
+      <PackagePath>cs\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>cs\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\UIAutomationProvider.resources.dll">
+      <PackagePath>cs\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\UIAutomationTypes.resources.dll">
+      <PackagePath>cs\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\WindowsBase.resources.dll">
+      <PackagePath>cs\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\cs\WindowsFormsIntegration.resources.dll">
+      <PackagePath>cs\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>de\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\PresentationCore.resources.dll">
+      <PackagePath>de\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\PresentationFramework.resources.dll">
+      <PackagePath>de\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\PresentationUI.resources.dll">
+      <PackagePath>de\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\ReachFramework.resources.dll">
+      <PackagePath>de\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>de\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>de\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>de\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Windows.Forms.resources.dll">
+      <PackagePath>de\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>de\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\System.Xaml.resources.dll">
+      <PackagePath>de\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\UIAutomationClient.resources.dll">
+      <PackagePath>de\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>de\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\UIAutomationProvider.resources.dll">
+      <PackagePath>de\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\UIAutomationTypes.resources.dll">
+      <PackagePath>de\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\WindowsBase.resources.dll">
+      <PackagePath>de\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\de\WindowsFormsIntegration.resources.dll">
+      <PackagePath>de\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>es\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\PresentationCore.resources.dll">
+      <PackagePath>es\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\PresentationFramework.resources.dll">
+      <PackagePath>es\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\PresentationUI.resources.dll">
+      <PackagePath>es\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\ReachFramework.resources.dll">
+      <PackagePath>es\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>es\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>es\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>es\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Windows.Forms.resources.dll">
+      <PackagePath>es\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>es\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\System.Xaml.resources.dll">
+      <PackagePath>es\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\UIAutomationClient.resources.dll">
+      <PackagePath>es\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>es\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\UIAutomationProvider.resources.dll">
+      <PackagePath>es\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\UIAutomationTypes.resources.dll">
+      <PackagePath>es\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\WindowsBase.resources.dll">
+      <PackagePath>es\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\es\WindowsFormsIntegration.resources.dll">
+      <PackagePath>es\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>fr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\PresentationCore.resources.dll">
+      <PackagePath>fr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\PresentationFramework.resources.dll">
+      <PackagePath>fr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\PresentationUI.resources.dll">
+      <PackagePath>fr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\ReachFramework.resources.dll">
+      <PackagePath>fr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>fr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Windows.Forms.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>fr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\System.Xaml.resources.dll">
+      <PackagePath>fr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\UIAutomationClient.resources.dll">
+      <PackagePath>fr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>fr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\UIAutomationProvider.resources.dll">
+      <PackagePath>fr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\UIAutomationTypes.resources.dll">
+      <PackagePath>fr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\WindowsBase.resources.dll">
+      <PackagePath>fr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\fr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>fr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>it\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\PresentationCore.resources.dll">
+      <PackagePath>it\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\PresentationFramework.resources.dll">
+      <PackagePath>it\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\PresentationUI.resources.dll">
+      <PackagePath>it\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\ReachFramework.resources.dll">
+      <PackagePath>it\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>it\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>it\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>it\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Windows.Forms.resources.dll">
+      <PackagePath>it\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>it\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\System.Xaml.resources.dll">
+      <PackagePath>it\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\UIAutomationClient.resources.dll">
+      <PackagePath>it\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>it\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\UIAutomationProvider.resources.dll">
+      <PackagePath>it\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\UIAutomationTypes.resources.dll">
+      <PackagePath>it\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\WindowsBase.resources.dll">
+      <PackagePath>it\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\it\WindowsFormsIntegration.resources.dll">
+      <PackagePath>it\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ja\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\PresentationCore.resources.dll">
+      <PackagePath>ja\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\PresentationFramework.resources.dll">
+      <PackagePath>ja\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\PresentationUI.resources.dll">
+      <PackagePath>ja\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\ReachFramework.resources.dll">
+      <PackagePath>ja\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ja\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Windows.Forms.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ja\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\System.Xaml.resources.dll">
+      <PackagePath>ja\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\UIAutomationClient.resources.dll">
+      <PackagePath>ja\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ja\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\UIAutomationProvider.resources.dll">
+      <PackagePath>ja\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\UIAutomationTypes.resources.dll">
+      <PackagePath>ja\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\WindowsBase.resources.dll">
+      <PackagePath>ja\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ja\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ja\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ko\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\PresentationCore.resources.dll">
+      <PackagePath>ko\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\PresentationFramework.resources.dll">
+      <PackagePath>ko\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\PresentationUI.resources.dll">
+      <PackagePath>ko\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\ReachFramework.resources.dll">
+      <PackagePath>ko\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ko\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Windows.Forms.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ko\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\System.Xaml.resources.dll">
+      <PackagePath>ko\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\UIAutomationClient.resources.dll">
+      <PackagePath>ko\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ko\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\UIAutomationProvider.resources.dll">
+      <PackagePath>ko\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\UIAutomationTypes.resources.dll">
+      <PackagePath>ko\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\WindowsBase.resources.dll">
+      <PackagePath>ko\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ko\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ko\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>pl\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\PresentationCore.resources.dll">
+      <PackagePath>pl\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\PresentationFramework.resources.dll">
+      <PackagePath>pl\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\PresentationUI.resources.dll">
+      <PackagePath>pl\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\ReachFramework.resources.dll">
+      <PackagePath>pl\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>pl\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Windows.Forms.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>pl\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\System.Xaml.resources.dll">
+      <PackagePath>pl\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\UIAutomationClient.resources.dll">
+      <PackagePath>pl\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>pl\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\UIAutomationProvider.resources.dll">
+      <PackagePath>pl\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\UIAutomationTypes.resources.dll">
+      <PackagePath>pl\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\WindowsBase.resources.dll">
+      <PackagePath>pl\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pl\WindowsFormsIntegration.resources.dll">
+      <PackagePath>pl\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\PresentationCore.resources.dll">
+      <PackagePath>pt-BR\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\PresentationFramework.resources.dll">
+      <PackagePath>pt-BR\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\PresentationUI.resources.dll">
+      <PackagePath>pt-BR\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\ReachFramework.resources.dll">
+      <PackagePath>pt-BR\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Windows.Forms.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\System.Xaml.resources.dll">
+      <PackagePath>pt-BR\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\UIAutomationClient.resources.dll">
+      <PackagePath>pt-BR\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>pt-BR\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\UIAutomationProvider.resources.dll">
+      <PackagePath>pt-BR\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\UIAutomationTypes.resources.dll">
+      <PackagePath>pt-BR\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\WindowsBase.resources.dll">
+      <PackagePath>pt-BR\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\pt-BR\WindowsFormsIntegration.resources.dll">
+      <PackagePath>pt-BR\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ru\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\PresentationCore.resources.dll">
+      <PackagePath>ru\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\PresentationFramework.resources.dll">
+      <PackagePath>ru\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\PresentationUI.resources.dll">
+      <PackagePath>ru\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\ReachFramework.resources.dll">
+      <PackagePath>ru\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ru\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Windows.Forms.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ru\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\System.Xaml.resources.dll">
+      <PackagePath>ru\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\UIAutomationClient.resources.dll">
+      <PackagePath>ru\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ru\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\UIAutomationProvider.resources.dll">
+      <PackagePath>ru\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\UIAutomationTypes.resources.dll">
+      <PackagePath>ru\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\WindowsBase.resources.dll">
+      <PackagePath>ru\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\ru\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ru\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>tr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\PresentationCore.resources.dll">
+      <PackagePath>tr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\PresentationFramework.resources.dll">
+      <PackagePath>tr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\PresentationUI.resources.dll">
+      <PackagePath>tr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\ReachFramework.resources.dll">
+      <PackagePath>tr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>tr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Windows.Forms.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>tr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\System.Xaml.resources.dll">
+      <PackagePath>tr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\UIAutomationClient.resources.dll">
+      <PackagePath>tr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>tr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\UIAutomationProvider.resources.dll">
+      <PackagePath>tr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\UIAutomationTypes.resources.dll">
+      <PackagePath>tr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\WindowsBase.resources.dll">
+      <PackagePath>tr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\tr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>tr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\PresentationCore.resources.dll">
+      <PackagePath>zh-Hans\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\PresentationFramework.resources.dll">
+      <PackagePath>zh-Hans\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\PresentationUI.resources.dll">
+      <PackagePath>zh-Hans\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\ReachFramework.resources.dll">
+      <PackagePath>zh-Hans\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Windows.Forms.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\System.Xaml.resources.dll">
+      <PackagePath>zh-Hans\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\UIAutomationClient.resources.dll">
+      <PackagePath>zh-Hans\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>zh-Hans\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\UIAutomationProvider.resources.dll">
+      <PackagePath>zh-Hans\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\UIAutomationTypes.resources.dll">
+      <PackagePath>zh-Hans\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\WindowsBase.resources.dll">
+      <PackagePath>zh-Hans\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hans\WindowsFormsIntegration.resources.dll">
+      <PackagePath>zh-Hans\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\PresentationCore.resources.dll">
+      <PackagePath>zh-Hant\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\PresentationFramework.resources.dll">
+      <PackagePath>zh-Hant\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\PresentationUI.resources.dll">
+      <PackagePath>zh-Hant\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\ReachFramework.resources.dll">
+      <PackagePath>zh-Hant\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Windows.Forms.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\System.Xaml.resources.dll">
+      <PackagePath>zh-Hant\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\UIAutomationClient.resources.dll">
+      <PackagePath>zh-Hant\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>zh-Hant\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\UIAutomationProvider.resources.dll">
+      <PackagePath>zh-Hant\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\UIAutomationTypes.resources.dll">
+      <PackagePath>zh-Hant\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\WindowsBase.resources.dll">
+      <PackagePath>zh-Hant\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\zh-Hant\WindowsFormsIntegration.resources.dll">
+      <PackagePath>zh-Hant\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\azure.core\1.25.0\lib\net5.0\Azure.Core.dll">
+      <PackagePath>Azure.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\azure.identity\1.7.0\lib\netstandard2.0\Azure.Identity.dll">
+      <PackagePath>Azure.Identity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.data.sqlclient\5.1.1\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll">
+      <PackagePath>Microsoft.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore.inmemory\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.InMemory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore.relational\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore.sqlserver\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net7.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -637,11 +1498,47 @@
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identity.client\4.47.2\lib\net5.0-windows10.0.17763\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identity.client.extensions.msal\2.19.3\lib\netcoreapp2.1\Microsoft.Identity.Client.Extensions.Msal.dll">
+      <PackagePath>Microsoft.Identity.Client.Extensions.Msal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.abstractions\6.24.0\lib\net6.0\Microsoft.IdentityModel.Abstractions.dll">
+      <PackagePath>Microsoft.IdentityModel.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.jsonwebtokens\6.24.0\lib\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll">
+      <PackagePath>Microsoft.IdentityModel.JsonWebTokens.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.logging\6.24.0\lib\net6.0\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.protocols\6.24.0\lib\net6.0\Microsoft.IdentityModel.Protocols.dll">
+      <PackagePath>Microsoft.IdentityModel.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\6.24.0\lib\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <PackagePath>Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.identitymodel.tokens\6.24.0\lib\net6.0\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.maui.graphics\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.sqlserver.server\1.0.0\lib\netstandard2.0\Microsoft.SqlServer.Server.dll">
+      <PackagePath>Microsoft.SqlServer.Server.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.web.webview2\1.0.864.35\lib\netcoreapp3.0\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.web.webview2\1.0.864.35\lib\netcoreapp3.0\Microsoft.Web.WebView2.WinForms.dll">
+      <PackagePath>Microsoft.Web.WebView2.WinForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.web.webview2\1.0.864.35\lib\netcoreapp3.0\Microsoft.Web.WebView2.Wpf.dll">
+      <PackagePath>Microsoft.Web.WebView2.Wpf.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -685,11 +1582,41 @@
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\system.identitymodel.tokens.jwt\6.24.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
+      <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\system.memory.data\1.0.2\lib\netstandard2.0\System.Memory.Data.dll">
+      <PackagePath>System.Memory.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\system.runtime.caching\6.0.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll">
+      <PackagePath>System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.data.sqlclient.sni.runtime\5.1.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll">
+      <PackagePath>Microsoft.Data.SqlClient.SNI.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.web.webview2\1.0.864.35\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LMSTUDY.deps.json">
+      <PackagePath>LMSTUDY.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.entityframeworkcore.design\7.0.11\lib\net6.0\Microsoft.EntityFrameworkCore.Design.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\microsoft.extensions.dependencymodel\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\KENSO\.nuget\packages\mono.texttemplating\2.2.1\lib\netstandard2.0\Mono.TextTemplating.dll">
+      <PackagePath>Mono.TextTemplating.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1011,6 +1938,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\metier.scale-400.png">
       <PackagePath>metier.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\n2sacademy.scale-100.png">
+      <PackagePath>n2sacademy.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\.net\LMSTUDY\LMSTUDY\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\n2slogo.scale-100.png">
       <PackagePath>n2slogo.scale-100.png</PackagePath>

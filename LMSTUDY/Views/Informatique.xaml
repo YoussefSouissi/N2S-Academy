@@ -18,7 +18,7 @@
                 </Label.GestureRecognizers>
             </Label>
             <Label Text="Informatique" FontAttributes="Bold" FontSize="28" Margin="10,20,0,40"></Label>
-            <CollectionView ItemsSource="{Binding InformatiqueItems}" ItemsLayout="VerticalList" SelectionMode="None">
+            <CollectionView ItemsSource="{Binding InformatiqueItems}" x:Name="InformatiqueItems" ItemsLayout="VerticalList" SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame CornerRadius="5" Padding="10" Margin="5" BackgroundColor="White" WidthRequest="380" >
@@ -33,8 +33,7 @@
 
                             <Image Source="{Binding Image}" HeightRequest="160"  VerticalOptions="StartAndExpand" Margin="-70,0,-30,0"/>
                             <StackLayout Grid.Column="1" Margin="0,20,10,0" Spacing="5">
-                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Title"/>
-                                <Label Text="{Binding Description}" />
+                                    <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Title"/>
                                     <Label Text="{Binding Price, StringFormat='Prix: {0:C}'}" FontSize="18" FontAttributes="Bold"/>
                                     <Button Text="add to cart" BackgroundColor="#39C486"/>
                                 </StackLayout>

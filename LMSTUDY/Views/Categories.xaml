@@ -18,9 +18,9 @@
         <ListView x:Name="CategoriesList">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell Tapped="ViewCategorie">
+                    <ViewCell Tapped="ViewCategorie" >
                         <StackLayout Orientation="Horizontal" Margin="10,5">
-                            <Label Text="{Binding Name}" FontSize="20">
+                            <Label Text="{Binding nomCategorie}" FontSize="20">
                             </Label>
                             <Label Text="{x:Static models:Google_Icons.Arrow_forward}" Style="{x:StaticResource Icons}" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand">
                             </Label>

@@ -10,6 +10,6 @@ public partial class FormationPage : ContentPage
     private async void BackToFormationsPage(object sender, EventArgs e)
     {
 
-        await Navigation.PushAsync(new Informatique());
+        await Navigation.PopAsync();
     }
 }
